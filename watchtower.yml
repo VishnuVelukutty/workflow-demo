@@ -9,5 +9,5 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     container_name: watchtower
   express-app:
-    image: express:v2
+    image: vishnuve/devops_for_docker:express
     container_name: express-app
